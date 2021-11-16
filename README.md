@@ -21,7 +21,9 @@ This web service has a key-value store for keeping state, with the following cal
 - You can call the db.fetch(key) method (with syntax adapted to the language of your choosing) to retrieve the object set at a key. This method returns the object set at that key if the key is defined, undefined if not.
 - You can call the db.keys() method (with syntax adapted to the language of your choosing) to return the list of all defined keys in the database. This function returns an empty list if none have been defined.
 - This key-value store is thread-safe.
-## The service needs to use this hypothetical key-value store (with only these three methods available).
+### The service needs to use this hypothetical key-value store (with only these three methods available).
+
+
 # Expectations and Assumptions
 - You can use whatever language, framework, and tools you feel most comfortable with.
 - You can use whatever schema and data types for the service endpoints that you feel makes the most sense.
